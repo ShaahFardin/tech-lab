@@ -1,0 +1,132 @@
+/* ----common style ----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.orange-text{
+    color: gold;
+}
+.btn{
+    text-decoration: none;
+    
+    border-radius: 5px;
+    padding: 10 25px;
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    
+}
+#header{
+    width: 100%;
+    height: 500px;
+    padding: 0 50px;
+    background-color: bisque;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
+.header-text{
+    width: 50%;
+    padding: 40px;
+}
+.header-text p{
+    margin: 30px 0 65px 0;
+}
+.header-image{
+    width: 50%;
+}
+.header-image img{
+    width: 100%;
+}
+/* header sectiion ends here */
+
+
+
+/* main section starts here */
+
+#service-section{
+    width: 100%;
+    margin: 80px auto;
+}
+.services-section-boxes{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-box{
+    border-radius: 3px;
+    display: flex;
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(255, 166, 0, 0.2);
+}
+.service-icon{
+    padding: 5px;
+    width: 30%;
+}
+.service-icon img{
+    width: 100%;
+}
+.service-text{
+    width: 70%;
+    padding: 10px;
+}
+.service-text p{
+    text-align: justify;
+}
+
+/* products section  */
+.laptop-section{
+    width: 90%;
+    margin: 20px auto;
+   
+}
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    margin-top: 20px;
+    width: 30%;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 5px 5px 30px gainsboro;
+    border-radius: 5px;
+}
+.card-image img{
+    width:300px;
+    height: 300px;
+    padding: 15px 10px 30px 10px;
+}
+/* input section  */
+.input-field{
+    width: 700px;
+    height: 200px;
+    background-color: bisque;
+    margin: 40px auto;
+}
+.input{
+    
+    padding-top: 30px;
+    text-align: center;
+   
+}
+.input-box{
+    width: 300px;
+    height: 35px;
+}
+
+/* footer  */
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    padding-top: 10px;
+}
